@@ -1,0 +1,35 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "This project was created to demonstrate my skills in Next.js, TypeScript and best practices. It simulates a real application with modular structure, tests and focus on code quality.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Maria ALmeida <mary.jony.ma@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "autoprefixer": "^10.4.21",
+    "jest": "^30.0.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "3.3.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "repository": "https://github.com/mariaalmeida-dev/devjobs.git"
+}
