@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# VSCode/JetBrains
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+
+# Environment variables
+.env*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Next.js type declarations
+next-env.d.ts
+
+# Optional: lockfiles (se usas apenas yarn, ignora package-lock)
+package-lock.json
+.pnp.*
