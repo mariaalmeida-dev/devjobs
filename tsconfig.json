@@ -13,7 +13,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
       "@/*": ["app/*"]
@@ -25,7 +24,9 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "jsx": "react-jsx",
+    "types": ["jest", "node"]
   },
   "include": [
     "**/*.ts",
